@@ -1,0 +1,28 @@
+.col-sm-2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: blue;
+    /*text-align: center;*/
+}
+h1{
+    margin-top: 20px;
+}
+.col-2,.col-3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-right: 2px; 
+   
+}
+.container{
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+  
+}

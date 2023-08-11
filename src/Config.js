@@ -1,0 +1,1 @@
+export const profileURL="https://64b3c5500efb99d862685a32.mockapi.io/movies_desc";

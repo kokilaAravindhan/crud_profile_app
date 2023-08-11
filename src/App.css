@@ -1,0 +1,8 @@
+.flex-container{
+  margin: 10px;
+  
+}
+headers{
+  display: flex;
+  justify-content: space-between;
+}

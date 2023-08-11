@@ -1,0 +1,16 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.col,.col-sm-3{
+    display: flex;
+   
+}
+.col{
+    display: flex;
+    padding-right: 50rem;
+}
