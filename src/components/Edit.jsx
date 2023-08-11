@@ -51,7 +51,7 @@ const Edit = () => {
     <><h1>Edit</h1><form onSubmit={handleSubmit} style={{ padding: '16px' }}>
       <div className='row'>
         <div className='col-sm-1'>
-          <label htmlFor="name">name:</label>
+          <h2 >Name:</h2>
         </div>
         <div className='col-sm-2'>
           <input
@@ -64,7 +64,7 @@ const Edit = () => {
       </div>
       <div className='row'>
         <div className='col-sm-1'>
-          <label htmlFor="age">age:</label>
+          <h2 >Age:</h2>
         </div>
         <div className='col-sm-2'>
           <input
@@ -77,7 +77,7 @@ const Edit = () => {
       </div>
       <div className='row'>
         <div className='col-sm-1'>
-          <label htmlFor="gender">gender:</label>
+          <h2 >Gender:</h2>
           </div>
         <div className='col-sm-2'>
           <input

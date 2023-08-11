@@ -10,10 +10,11 @@ function App() {
   return (
     <>
     <div className='flex-container'>
+      <h1 className='heading'>CRUD OPERATION</h1>
       <BrowserRouter> 
           <headers>
 
-          <Link to='/profile/home' element={<Home/>}>Home</Link>&nbsp;&nbsp;
+          <Link to="/">Home</Link>&nbsp;&nbsp;
           <Link to="/profile/edit">Edit</Link>&nbsp;&nbsp;
           <Link to="/profile/create">Create</Link>&nbsp;&nbsp;
           

@@ -33,7 +33,7 @@ const Create = () => {
     <div className='container'>
       <div className='row' >
           <div className='col-sm-3' >
-              <h2>name</h2>
+              <h2>Name</h2>
           </div>
           <div className='col col-sm-3'>
               <input type='text' id='name' value={formik.values.name}  onChange={formik.handleChange}/>
@@ -41,7 +41,7 @@ const Create = () => {
       </div>
       <div className='row' >
           <div className='col-sm-3' >
-              <h2>age</h2>
+              <h2>Age</h2>
           </div>
           <div className='col col-sm-3'>
               <input type='text' id='age' value={formik.values.age}  onChange={formik.handleChange}/>
@@ -49,7 +49,7 @@ const Create = () => {
       </div>
       <div className='row' >
           <div className='col-sm-3' >
-              <h2>gender</h2>
+              <h2>Gender</h2>
           </div>
           <div className='col col-sm-3'>
               <input type='text' id='gender' value={formik.values.gender}  onChange={formik.handleChange}/>

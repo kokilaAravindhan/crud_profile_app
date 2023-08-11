@@ -1,8 +1,18 @@
 .flex-container{
   margin: 10px;
   
+  
 }
 headers{
   display: flex;
   justify-content: space-between;
+}
+.heading{
+  text-align: center;
+  padding: 20px;
+
+  
+}
+headers{
+  text-align: center;
 }
